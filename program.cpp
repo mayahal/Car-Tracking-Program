@@ -7,7 +7,7 @@ Program::Program()
 {
 
 }
-
+//розділенння на юзера та на адмінів
 //logging system
 //unit tests
 //time starting from clock
@@ -32,18 +32,18 @@ void Program::display()
         case 1:
             system("clear");
             admin->addCar();
-            //break;
+            break;
         case 2:
             system("clear");
             //admin.addCar();
             break;
         case 3:
             system("clear");
-            //admin.addCar();
+            admin->checkingParkingTime();
             break;
         case 4:
             system("clear");
-            //admin.addCar();
+            admin->showCars();
             break;
         case 0:
             return;
@@ -56,13 +56,6 @@ void Program::display()
 
 void Program::start()
 {
-//    std::cout << "Welcome!" << std::endl;
-//    Admin admin;
-//    admin.addCar("PN23445");
-//    admin.addCar("WTISN7756");
-//    admin.addCar("EJB679");
-
-//    admin.showCars();
     display();
 
 }

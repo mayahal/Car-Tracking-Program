@@ -12,6 +12,7 @@ public:
 
     void addCar();
     void showCars();
+    void checkingParkingTime();
 
 private:
     std::vector<Car> listOfCars;
