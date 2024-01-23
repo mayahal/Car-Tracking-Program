@@ -35,11 +35,11 @@ void Program::display()
             break;
         case 2:
             system("clear");
-            //admin.addCar();
+            admin->checkingParkingTime();
             break;
         case 3:
             system("clear");
-            admin->checkingParkingTime();
+            //admin->checkingParkingTime();
             break;
         case 4:
             system("clear");
